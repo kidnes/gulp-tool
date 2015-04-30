@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* 首页、频道首页焦点图 */
+.focus{ height:auto;overflow:hidden;position:relative;}
+#j-slide-wrapper{-webkit-transform-style:preserve-3d;}
+.fs-img{ width:19200px;margin-left:0;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-transform:translateZ(0);-moz-transform:translateZ(0);-ms-transform:translateZ(0);-o-transform:translateZ(0);transform:translateZ(0);-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;-o-text-size-adjust:none;text-size-adjust:none;/*阻止,有些浏览器有屏幕闪动bug*/-webkit-transform:translate3d(0,0,0);-webkit-backface-visibility:hidden;}
+.fs-img li{ width:640px;float:left;position:relative;-webkit-user-select:none;-webkit-transform:translate3d(0,0,0);-webkit-backface-visibility:hidden;}
+.fs-img li a{ display:block;width:100%;height:100%;-webkit-user-select:none;}
+.fs-img img{width:100%;height:auto;}
+.fs-doc{ text-align:right;height:20px;position:absolute;right:10px;bottom:2px;width:40%;}
+.fs-doc li{ display:inline-block;width:10px;height:10px;background-color:#000;border-radius:10px;margin-left:3px;opacity:0.5;box-shadow:0 0 3px #fff;}
+.fs-doc .active{ background-color:#fff;opacity:1;}
+.s-txt{ display:block;overflow:hidden;}
+.s-txt b{ width:96%;position:absolute;left:2%;color:#fff;text-shadow:1px 1px 3px #000;height:20px;overflow:hidden;line-height:20px;}
+.s-txt .b-1{ bottom:46%;font-size:14px;}.s-txt .b-2{ bottom:28%;font-size:18px;}.s-txt .b-3{ bottom:12%;font-size:14px;}

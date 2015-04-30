@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document 我是歌手头部 */
+.nav{ height:42px;}
+.live-nav{ height:20px; line-height:20px; padding:11px 0;}
+.live-nav li{ float:left;}
+.live-nav li a{ color:#444; float:left; border-left:1px solid #afafaf; padding:0 7px; margin-left:-1px;}
+.live-nav .active a{ color:#00a0e9; font-weight:bold;}

@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document 按钮 */
+.ipt{ font-size:15px; text-align:center; height:32px; line-height:32px; display:block; border-radius:3px;}
+.y,.y:hover{ border:1px solid #f9a038; color:#f9a038;}
+.b,.b:hover{ border:1px solid #00a0e9; color:#00a0e9;}.b,.b:hover{ border:1px solid #00a0e9; color:#fff; background-color:#00a0e9;}
+.g,.g:hover{ border:1px solid #ccc; color:#ccc; cursor:default;}.g,.g:hover{ border:1px solid #cdcdcd; color:#929292; cursor:default; background-color:#cdcdcd;}
+.y,.y:hover{ border:1px solid #f9a038; color:#f9a038;}
+.cls i{ background-color:#000; width:2px;}

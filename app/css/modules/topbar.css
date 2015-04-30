@@ -1,0 +1,5 @@
+@charset "utf-8";
+/* CSS Document 吸顶导航 */
+#j-fixed-topbar {position: absolute;z-index: 109;top: -43px;width: 100%;padding:0; left:0;}
+#j-fixed-topbar.active {top:0;}
+#j-fixed-topbar .h-logo{margin-left:5px;}

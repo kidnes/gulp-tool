@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* 视频块 */
+.w158{ margin-top:10px; background-color:#fff; overflow:hidden; position:relative;}
+.w158 dt{ width:79px; float:left;}
+.w158 dt a{ display:block; width:100%; height:100%; overflow:hidden;}
+.w158 dt img{ width:100%; float:left;}
+.w158 dd{ float:left; width:69%; line-height:22px; padding-left:7px; font-size:12px; line-height:20px; overflow:hidden;}
+.w158 dd span{ position:absolute; right:0; bottom:0; font-size:12px; background-color:#fff; padding:0 7px;}
+.w158 .d-t{ font-size:16px;}
+.w158 .d-tw{ height:40px}
+
+/*播放页*/
+.mn-list .w158{ border-bottom:1px solid #d9d9d9; margin:0; padding:9px 7px 7px 7px;}
+.mn-list .w158:last-child{ border:0;}
+.mn-list .w158 dt{ width:80px; overflow:hidden; position:relative;}
+.mn-list .w158 dt small{ width:100%; height:100%; position:absolute; left:0; top:0;}
+.mn-list .w158 dd{ height:20px; overflow:hidden;}.mn-list .w158 .t-tw{ height:40px;}
+.mn-list .w158 dd span{ bottom:2px; color:#969696;}
+.mn-list .w158 dd span i{ display:none;}
+.mn-list .w158 .d-t{ color:#444;}
+.mn-list .app-more .list{ padding:0;}
+.mn-list .app-more .active{ background-color:#0f93de;}
+.mn-list .app-more .active dd,.mn-list .app-more .active dd span,.mn-list .app-more .active{ color:#fff; background-color:#0f93de;}
+.url-body{ display:block; width:100%; height:100%; position:absolute; left:0; top:0;}

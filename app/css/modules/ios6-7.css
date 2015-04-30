@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document 首页收藏浮层 */
+.ios{ width:165px; height:83px;position: relative;top:18px;z-index:3;}.ios a{ display:block; position:absolute; right:0; top:0; width:26px; height:26px;}
+.ios span{ color:#fff; position:absolute; left:57px; top:13px; width:99px;}.ios span b{ width:100%; clear:both; font-size:15px; line-height:24px;}
+.ios6{ background:url(http://i3.letvimg.com/img/201310/09/1458/ios6.png) no-repeat left top; background-size:100%;}
+.ios7{ background:url(http://i0.letvimg.com/img/201310/09/1458/ios7.png) no-repeat left top; background-size:100%;}

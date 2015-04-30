@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* 播放页播放器顶部提示条样式 */
+.app-top-down{
+	padding:5px 0; position:relative;
+	background:-moz-linear-gradient(top,#f4f4f4,#fff);
+	background:-webkit-gradient(linear,left top,left bottom,from(#f4f4f4),to(#fff));
+}
+.app-top-down span,.app-top-down em a,.app-top-down em a:hover,.app-top-down em,.top-down{ font-size:12px; background:none;}
+.app-top-down span{ padding-left:5px; line-height:28px; color:#444; float:left;}
+.app-top-down .top-down,.app-top-down em{ float:right; display:inline; margin-right:5px; line-height:28px;}
+.app-top-down .top-down{ background-color:#0f9cec; color:#fff; border-radius:5px;float:left; margin-left:5px; padding:0 9px; margin-right:0;}
+.app-top-down em{ top:8px;}.app-top-down em,.app-top-down em a{ height:23px; width:23px;}.app-top-down em i{ height:15px; left:10px; width:2px;}

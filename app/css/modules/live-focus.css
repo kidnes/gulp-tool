@@ -1,0 +1,45 @@
+@charset "utf-8";
+/*焦点图*/
+.focus{ height:auto;overflow:hidden;position:relative; background-color:#333;}#j-slide-wrapper{-webkit-transform-style:preserve-3d;}
+.fs-img{ width:19200px;margin-left:0;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-transform:translateZ(0);-moz-transform:translateZ(0);-ms-transform:translateZ(0);-o-transform:translateZ(0);transform:translateZ(0);-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;-o-text-size-adjust:none;text-size-adjust:none;/*阻止,有些浏览器有屏幕闪动bug*/-webkit-transform:translate3d(0,0,0);-webkit-backface-visibility:hidden;}
+.fs-img li{ width:320px;float:left;position:relative;-webkit-user-select:none;-webkit-transform:translate3d(0,0,0);-webkit-backface-visibility:hidden;}
+.fs-img li a{ display:block;width:100%;height:100%;-webkit-user-select:none; overflow:hidden;}
+.fs-img img{ width:100%; height:auto; float:left;}
+.fs-doc{ text-align:right;height:20px;position:absolute;right:10px;bottom:2px;width:40%;}
+.fs-doc li{ display:inline-block;width:4px;height:4px;background-color:#fff;border-radius:4px;margin-left:2px;opacity:0.5;}
+.fs-doc .active{ background-color:#fff;opacity:1;}
+.s-txt{ display:block;overflow:hidden;}
+.s-txt b{ width:80%;position:absolute;left:14%;text-shadow:1px 1px 3px #000;height:20px;overflow:hidden;line-height:20px;}
+.s-txt .b-1{ bottom:61%; font-size:22px; height:30px; line-height:30px;}.s-txt .b-2{ bottom:43%;font-size:14px;color:#fff;}.s-txt .b-3{ bottom:27%;font-size:12px;color:#fff;}
+.clr-1{ color:#f9f;}.clr-2{ color:#fdda04;}.clr-3{ color:#fe679a;}.clr-4{ color:#ff9934;}.clr-5{ color:#66ff64;}.clr-6{ color:#64ccff;}
+/*for iphone  pic 780 320 */
+
+.iphone .fs-img li {
+    width:320px !important;
+    height:137px !important;
+}
+@media screen and (max-device-width:480px) and (orientation:landscape) {
+/* iPhone 4 or iPod Touch 4th generation*/
+  .iphone .fs-img li {
+    width:480px !important;
+    height:205.5px !important;
+  }
+}
+@media screen and (device-height:568px) and (-webkit-min-device-pixel-ratio:2) and (orientation:landscape) {  
+/* iPhone 5 or iPod Touch 5th generation */    
+.iphone .fs-img li {
+    width:568px !important;
+    height:243.175px !important;
+  }
+}
+/*iPhone 6*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
+  .iphone .fs-img li {width:375px !important;height:161px !important;}}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) { 
+  .iphone .fs-img li {width:667px !important;height:286px !important;}}
+
+/*iPhone 6 Plus*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) { 
+  .iphone .fs-img li {width:414px !important;height:178px !important;}}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) { 
+  .iphone .fs-img li {width:736px !important;height:316px !important;}}

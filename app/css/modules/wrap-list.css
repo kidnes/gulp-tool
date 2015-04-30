@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* 剧集列表 */
+.num-txt{ display:none; border-left:1px solid #c8c8c8; border-bottom:1px solid #c8c8c8; width:100%; border-top:1px solid #c8c8c8;}
+.num-txt li{ width:20%; height:40px; overflow:hidden; position:relative;}
+.num-txt li small{ font-size:11px; height:16px; line-height:16px; padding:2px 6px; color:#999; position:absolute; right:0; top:0; background-color:#f29709; color:#fff;}
+.num-txt li a{ display:block;background:-moz-linear-gradient(top,#fff,#e5e5e5);background:-webkit-gradient(linear,center top,center bottom,from(#fff),to(#e5e5e5));background:-o-linear-gradient(top,#fff, #e5e5e5); color:#444; border-bottom:1px solid #c8c8c8; border-right:1px solid #c8c8c8;}
+.num-txt .active a,.txt-list .active a,.ent-list .active a,.music-list .active a{ background:-moz-linear-gradient(top,#0173c3,#198fd3); background:-webkit-gradient(linear,center top,center bottom,from(#0173c3),to(#198fd3));background:-o-linear-gradient(top,#0173c3, #198fd3); box-shadow:0 2px 3px #00375e inset;}.num-txt .active a:hover{ color:#fff;}
+
+.list-main{ overflow:hidden;}.m-map .list-main{ background:none;}.m-map .list-main .mn-list{ width:100%;}
+.list-main ul{ overflow:hidden;}.list-main li{ float:left; text-align:center; line-height:40px;}
+.list-main ul .active a{ font-weight:bold; color:#529bef;}
+.list-main .num-txt .active a,.list-main .txt-list .active a,.list-main .ent-list .active a,.list-main .music-list .active a,.list-main .music-list .active a i{ color:#fff;}
+.list-main .num-txt .no-tv a,.list-main .txt-list .no-tv a,.list-main .ent-list .no-tv a,.list-main .music-list .no-tv a,.list-main .music-list .no-tv a i{ color:#ccc;}
+.list-main .active{ display:block;}
+
+.num-tab,.tab-year{ border-bottom:1px solid #c8c8c8;}.tab-year ul,.num-tab ul,.num-tab ul,.tab-month ul{ width:4000px;}
+.num-tab li a,.tab-year li a{ display:block; font-size:18px;}.tab-year li a{ padding:0 15px;}.num-tab .active a,.tab-year .active a{ color:#529bef;}
+.num-tab li a{ padding:0 5px; font-size:16px;}

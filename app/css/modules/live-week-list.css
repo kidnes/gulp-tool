@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document 直播周列表 */
+.week-list li{ position:relative; border-bottom:1px solid #ccc; margin-left:5px; padding:5px;}
+.week-list .active .info-dft .v{ border-color:transparent transparent #fff transparent; vertical-align:text-top;}
+.week-list .active .info-dft a{ background-color:#00a0e9; color:#fff;}
+.week-list .active .info-sow .v{ border-color:transparent transparent #00A0E9 transparent; vertical-align:text-top; top:-15px; left:70px;}
+.info-dft p{ height:22px; line-height:22px; width:78%; overflow:hidden;}
+.info-dft .p1 u,.info-dft .p1 i,.info-dft .p1 em{ font-size:14px; padding-right:3px;}
+.info-dft .p2{ color:#444;}.info-dft .p2 i{ padding:0 3px;}
+.info-dft span{ position:absolute; right:10px; top:13px;}
+.info-dft span a{border:1px solid #00a0e9; border-radius:3px; font-size:14px; display:block; text-align:center; line-height:24px; width:60px; height:24px; color:#00A0E9;}
+.info-dft .red{ color:#f00;}
+.info-dft .ing{ color:#f00; border:1px solid #f00;}
+.info-dft .fne{ color:#bbb; border:1px solid #bbb; cursor:default;}
+.info-dft .v{ border-color:#00a0e9 transparent transparent transparent; position:static; vertical-align:text-bottom; border-width:6px; margin-left:3px;}
+.info-sow{ position:absolute; right:10px; top:50px; width:100px; display:none; background-color:#00A0E9; border-radius:3px; z-index:1;}.week-list .active .info-sow{ display:block;}
+.info-sow a{ padding:10px; color:#fff; background-color:none; display:block; text-align:center;}
+.info-sow .p1{ border-bottom:1px solid #3dbef9;}

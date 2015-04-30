@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document 首页导航展开提示 */
+.total{line-height:30px;position:absolute; left:-45px; top:30px; border-radius:5px; background:url(http://i2.letvimg.com/css/201308/08/1616/pop.png) no-repeat left top; background-size:100%;}
+.total,.total b,.total em{ width:120px; height:69px; line-height:76px; overflow:hidden; text-align:center;}.total em{ position:relative;}
+.total i{ position:absolute; right:3px; top:8px; width:28px; height:28px;}
+.total b{ font-size:15px; position:absolute; left:0; top:0; color:#bfbfbf;}.total a,.total a:hover{ color:#bfbfbf;}

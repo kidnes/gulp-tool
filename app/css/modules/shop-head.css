@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document 商城头部 */
+ body{ color:#333; background-color:#fff;}
+.head{ padding:0 5px; margin:0 auto; position:relative; border-bottom:1px solid #b5b5b5; box-shadow:none; line-height:40px; overflow:hidden; height:40px; background-color:#fff;}
+.head p{ text-align:center; color:#444; font-size:20px; font-weight:bold; text-indent:10px;}
+.head .direc{margin-top:5px; height:35px;}
+.head .direc u{ background-color:#444; margin-top:6px;}.head a{ display:block; width:100%; height:100%;}
+
+.h-channel{ left:0; top:0; position:absolute; height:40px; padding:0 5px 0 0;}.h-channel a b{ color:#444; margin-left:5px;}
+.h-channel .direc u{ height:3px;}.h-channel .direc b{font-size:16px;line-height:26px; font-weight:bold;}.m-home .direc i,.m-list .direc i{ float:right;}
+.h-channel .direc .l-rot{ width:14px; margin:2px 0 0 6px;}
+.h-channel .direc .r-rot{ width:14px; margin:-2px 0 0 6px;}
+
+.h-class{ float:right;}.h-class a{ color:#00a0e9;}

@@ -1,0 +1,21 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.list-pic li{ width:50%;}
+.w10,.w20,.w290{ float:left;}.w10{ width:2%;}.w20{ width:4%;}
+.w290{ box-shadow:0 1px 2px #ddd; background-color:#fff; display:inline; margin:10px 0 0 0; width:94%; text-align:left; line-height:normal;}
+.w290 dt{ position:relative;}
+.w290 dt,.w290 dt a{width:100%; display:block; overflow:hidden; min-height:115px;}
+.w290 dt small{ width: 100%; height: 100%; position: absolute; left: 0; top: 0; margin: 0;}
+.w290 dt img{ width:100%; height:auto; float: left;}
+.w290 dd{ width:94%; margin:0 auto; height:22px; line-height:24px; overflow:hidden;}
+.w290 i,.w290 b{ float:left;}
+.w290 i{ height:19px; margin:1px 0 0 5px; overflow:hidden;}
+.w290 i a{font-size:11px;color:#666;line-height:16px;display:inline-block;height:16px;padding:0 2px; font-weight:bold;border:1px solid #777;border-radius:3px;overflow:hidden;}
+.w290:hover i a{ background-color:#333; color:#fff;}
+.w290:hover i a:hover,.w290 i a:hover{ background-color:#539bf0; border:1px solid #539bf0; transition:none; color:#fff;}
+.w290 .d-i,.w290 .d-a{ padding-bottom:5px; font-size:14px;}.w290 .d-a span{ color:#444;}.w290 .d-a b{ float:none; color:#f00; font-size:14px;}
+.w290 .d-t{ font-size:16px;}.w290 .d-t b a{ font-size:24px;}.w290 .t-th{ height:72px;}.w290 .t-tw{ height:48px;}
+.w290:hover{ box-shadow:0 0 3px #48a3ef;}.wd dd{ height:44px; padding-bottom:5px;}.wd .d-i{ display:none;}
+.bg { display:none; bottom:0;cursor:pointer;height:29px;left:0;position:absolute;width:100%;}
+.o-text{bottom:0;cursor:pointer;height:29px;left:0;position:absolute;width:100%;line-height: 29px;text-align: center;z-index: 10;color: #fff;}
+.number-txt{position:absolute; bottom:8px; right:0; height:22px; overflow:hidden; line-height:22px; padding: 0 10px; text-align:center; color:#fff; background:#000; border-radius:4px 0 0 4px; filter:alpha(opacity=60); opacity:0.6; font-size:13px;}

@@ -1,0 +1,13 @@
+﻿@charset "utf-8";
+/* 全站搜索输入框 */
+.srh-serach{ margin:0 auto;height:auto;min-width:310px; overflow:visible;}
+.srh-serach .ipt{ display:block; width:100%; font-size:16px;padding:5px 0;border-radius:4px;}
+.box-sh{ width:96%; margin:0 auto; position:relative; z-index:1; padding:10px 0;}
+.box-sh .leipt{background-color:#fff;border:1px solid #ccc; border-radius:4px; width:100%;}
+.box-sh .i-w-sh{color:#b3b3b3; background-color:none; border:0; width:65%;text-align:left;text-indent:5px; height:24px; line-height:24px;}
+.box-sh .i-b{ background:-moz-linear-gradient(top,#5ab7fa,#3e99d3);background:-webkit-gradient(linear, 0 0, 0 bottom, from(#5ab7fa), to(rgba(62, 153, 211, 1)));background:-o-linear-gradient(top,#5ab7fa, #3e99d3); border:1px solid #539cd4; color:#fff; height:35px; width:100%;}.i-b:hover,.i-s:hover{ color:#fff;}
+.box-sh ul{ border-top:1px solid #c7c7c7; position:absolute; left:0; top:48px; width:100%; background-color:#fff; display:none;}.box-sh .active{ display:block;}
+.box-sh li{ border:1px solid #c7c7c7; border-top:none; text-indent:5px;}
+.box-sh li,.box-sh li a{ display:block; overflow:hidden; height:40px; line-height:40px; color:#444;}
+.srh-serach,.sh-main{ overflow:visible;}.so-info{ width:78%; float:left; position:relative;}.so-submit{ float:right; width:20%;}
+.leso{ position:absolute; right:5px; top:10px; background:url(http://i1.letvimg.com/img/201408/20/1808/leso67.png) no-repeat left top; background-size:100%; width:67px; height:19px;}

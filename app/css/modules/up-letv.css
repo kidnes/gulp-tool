@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document 返回顶部 */
+.up-letv{ position:fixed; right:5px; bottom:5px; width:31px; height:31px;}
+.up-letv span,.up-letv i,.up-letv b,.up-letv a{ width:31px; height:31px; cursor:pointer;}.up-letv span{ position:relative;}
+.up-letv .s-bg{ background-color:#000; opacity:0.5;}
+.up-letv .s-up{ position:absolute; left:4px; top:3px; color:#fff; background:url(http://i0.letvimg.com/img/201307/24/up.png) no-repeat left top;}
