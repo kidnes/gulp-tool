@@ -1,12 +1,12 @@
 var config = require('./')
 
 module.exports = {
-    src: config.sourceDirectory + '/css/main/',
+    src: config.sourceDirectory + '/css/entry/',
     dest: config.publicDirectory + '/css/',
     bundleConfigs: [{
-        fileName: 'auto.css'
-    }, {
-        fileName: 'about.css'
+        fileName: 'global.css'
+    // }, {
+    //     fileName: 'about.css'
     }]
   
 }

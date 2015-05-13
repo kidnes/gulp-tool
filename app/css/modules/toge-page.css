@@ -1,5 +1,0 @@
-﻿@charset "utf-8";
-/* CSS Document 上下页 */
-.info-more{ line-height:34px; height:35px; overflow:hidden; text-align:center; padding:15px 0; margin-top:10px;}
-.info-more span{ background-color:#f7f7f7; width:30%; margin:0 5px; float:none; border:1px solid #b2b2b2; border-radius:2px;background:-moz-linear-gradient(top, #fefefe, #e5e5e5);background:-webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#e5e5e5));}
-.info-more a{ display:block;}.info-more .f-fr a{ border-left:1px solid #dedede;}

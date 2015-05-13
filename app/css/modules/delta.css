@@ -1,7 +1,0 @@
-﻿@charset "utf-8";
-/* CSS Document */
-.v{ position:absolute; left:0; top:0; border-width:8px; height:0; width:0; border-style:solid;}
-.t-v{ border-color:transparent transparent #fffde6 transparent;}.bm .t-v{ border-color:transparent transparent #a5a5a5 transparent;}
-.r-v{ border-color:transparent #fffde6 transparent transparent;}
-.b-v{ border-color:#fffde6 transparent transparent transparent;}.bm .b-v{ border-color:#a5a5a5 transparent transparent transparent;}.app-down .b-v{ border-color:#6fb1ff transparent transparent transparent;}
-.l-v{ border-color:transparent transparent transparent #fffde6;}

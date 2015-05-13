@@ -1,7 +1,0 @@
-﻿@charset "utf-8";
-/* 类新版播放页猜你喜欢视频块 */
-.w100{ padding:25px 0; border-bottom:1px dotted #848383; color:#fff; width:96%; margin:0 auto;}
-.w100 dt,.w100 dt a{ width:108px; height:108px; display:block; margin:0 auto;}.w100 dt{ position:relative;}
-.w100 dt img{ border-radius:180px; border:4px solid #fff; width:100px; height:100px;}
-.w100 dd{ padding-top:13px; text-align:center; clear:both; float:left; width:100%;}
-.w100 dd a,.w100 dd b{ color:#f9961a;}

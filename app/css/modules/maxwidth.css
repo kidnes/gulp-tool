@@ -1,8 +1,0 @@
-@charset "utf-8";
-/* CSS Document 公共父节点 */
-.head,.menu,.focus,.list-main,.foot,.video,.sh-main,.fruit-sh,.home-main,.pic-main,.info-main,.sub-main,.m-start,.map,.info-more,.form-main,.faq-main,.video-main,.app,.m-tab,.channel-menu,.his-login,.his-list,.his-no,.app-top-down,.m-shop,.l-tab,.itn-body,.fut-main,.srh-like,.srh-serach,.srh-body,.open-more,.super-body{margin:0 auto;height:auto;overflow:hidden;}.head{ overflow:visible;}
-.list-main{overflow:hidden;}.video{ background-color:#888;}
-.home-main .list,.list-main .list,.pic-main .list{padding-bottom:0;width:100%;float:left;margin:0 auto;}.pic-main{padding-bottom:13px;}.m-search .pic-main{background-color:#d3d3d3;}
-.home-main .list,.pic-main .list,.srh-like .list{ padding-bottom:3px;}
-.focus,.list-main,.sh-main,.fruit-sh,.home-main,.pic-main,.menu,.info-main,.sub-main,.m-start,.map,.letvtab,.info-more,.form-main,.faq-main,.video-main,.letvtab ul,.app,.m-tab,.channel-menu,.his-login,.his-list,.his-no,.app-top-down,.m-shop,.l-tab,.itn-body,.fut-main,.srh-like,.srh-serach,.srh-body,.open-more,.super-body{min-width:310px;max-width:970px;padding:0 5px;}.video-main,.letvtab ul,.map,.menu,.m-tab,.pic-main,.home-main,.itn-body{ padding:0;}
-.red,.red:hover,.red a,.red a:hover{ color:#f00!important;}

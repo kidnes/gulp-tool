@@ -1,9 +1,0 @@
-@charset "utf-8";
-/* CSS Document 我是歌手头部 */
-.singer{ position:relative;}#j-slide-wrapper{-webkit-transform-style:preserve-3d;}
-.singer img{ width:100%; height:auto; float:left;}
-.sgr-nav,.sgr-ocy{ width:40000px; position:absolute; bottom:0; left:0; height:42px; line-height:42px;}
-.sgr-ocy{opacity:0.85; background-color:#472360; width:100%; border-top:1px solid #865fb1; border-bottom:1px solid #865fb1; height:40px;}
-.sgr-nav li{ float:left; padding:0 10px;}
-.sgr-nav li a{ color:#fff; float:left;}
-.sgr-nav .active a{ color:#f9961a; font-weight:bold;}

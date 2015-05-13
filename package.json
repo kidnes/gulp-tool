@@ -14,6 +14,7 @@
     "test": "gulp build:production"
   },
   "dependencies": {
+    "webpack": "^1.9.4",
     "browser-sync": "^2.0.0",
     "browserify": "^9.0.8",
     "gulp": "^3.8.7",
@@ -32,13 +33,22 @@
     "gulp-cssimport": "^1.3.1",
     "gulp-concat-css": "^2.2.0",
     "gulp-webpack": "^1.3.2",
+    "gulp-watch": "^4.2.4",
+    "gulp-util": "^3.0.4",
+    "gulp-changed": "^1.2.1",
+    "gulp-imagemin": "^2.2.1",
+    "express": "^4.12.3",
     "require-dir": "^0.1.0",
     "jquery": "~2.1.0",
     "merge-stream": "^0.1.7",
     "watchify": "^2.4.0",
     "vinyl-named": "^1.1.0",
     "vinyl-source-stream": "^1.1.0",
-    "lodash": "^3.6.0"
+    "lodash": "^3.6.0",
+    "morgan": "^1.5.2",
+    "open": "^0.0.5",
+    "del": "^1.1.1",
+    "compression": "^1.4.3"
   },
   "devDependencies": {
   }

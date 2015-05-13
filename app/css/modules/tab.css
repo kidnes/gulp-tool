@@ -1,7 +1,0 @@
-﻿@charset "utf-8";
-/* 播放页播放器下方tab标签 */
-.m-tab,.l-tab{ background-color:#DEDEDE; overflow:hidden;}.m-tab ul,.l-tab ul{ height:40px; overflow:hidden;}.two-tab ul li{ width:50%;}.four-tab ul li{ width:25%;}
-.m-tab li,.l-tab li{ width:33.33%; text-align:center; background-color:#dedede; height:40px; overflow:hidden; font-size:18px; position:relative; float:left; line-height:40px;}
-.m-tab li a,.l-tab li a{ display:block; width:100%; color:#000;}.list-main .m-tab .active i{ display:block;}
-.m-tab .active,.l-tab .active{ background-color:#fff;}.m-tab .active a,.m-tab .active a:hover,.l-tab .active a,.l-tab .active a:hover{ font-weight:bold; color:#529bef;}
-.l-tab{ padding:0;}.l-tab li{ width:14.2%;}
