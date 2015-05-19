@@ -16,7 +16,7 @@ module.exports = function(env) {
 
     output: {
       path: jsDest,
-      filename: env === 'production' ? '[name]-[hash].js' : '[name].js',
+      filename: env === 'production' ? '[name].js' : '[name].js',
       publicPath: publicPath
     },
 
@@ -42,14 +42,14 @@ module.exports = function(env) {
     webpackConfig.plugins.push(
       new webpack.optimize.CommonsChunkPlugin({
         name: 'shared',
-        filename: env === 'production' ? '[name]-[hash].js' : '[name].js',
+        filename: env === 'production' ? '[name].js' : '[name].js',
       })
     )
   }
 
   if(env === 'development') {
-    webpackConfig.devtool = 'sourcemap'
-    webpack.debug = true
+    // webpackConfig.devtool = 'sourcemap'
+    // webpack.debug = true
   }
 
   if(env === 'production') {
