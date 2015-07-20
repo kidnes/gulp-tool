@@ -13,17 +13,17 @@ var rewriteMiddleware = rewriteModule.getMiddleware(rules, {
 })
 
 module.exports = {
-    // server: {
-    //     baseDir: config.publicDirectory
-    // },
+    server: {
+        baseDir: config.publicDirectory
+    },
     startPath: "/html",
     files: ['pubilc/**/*.html'],
     https: false,
     open: false,
-    proxy: {
-        target: "http://10.154.252.73/",
-        middleware: rewriteMiddleware
-    },
+    // proxy: {
+    //     target: "http://10.154.252.73/",
+    //     middleware: rewriteMiddleware
+    // },
     port: 5000
     // open: "external"
 }
